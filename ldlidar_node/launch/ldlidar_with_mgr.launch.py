@@ -59,7 +59,7 @@ def generate_launch_description():
 
     # Define LaunchDescription variable
     ld = LaunchDescription()
-
+    
     # Launch Nav2 Lifecycle Manager
     ld.add_action(lc_mgr_node)
 
